@@ -7,10 +7,14 @@
 
 /*ヘッダー*/
 header{
-    height: 150px;
-    width: 100%;
+  height: 100px;
+  width: 100%;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header-left{
-    color: black;
+  color: black;
 }
