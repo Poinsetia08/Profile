@@ -39,15 +39,29 @@ header{
 }
 
 /*アバウト*/
-#about{
-  width: 85%;
+#About{
+  height: 500px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#about h1{
-  margin: 20px 50px;
+#About h1{
+  padding: 20px 50px;
+  margin: 0 20px;
 
-  border-bottom: slategray;
+  font-size: 40px;
+
+  border-bottom: solid slategray;
 }
 
+.detail{
+  padding: 10px 0;
+}
+
+.content{
+  padding: 20px;
+}
 
 /*スキル*/
