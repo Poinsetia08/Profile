@@ -47,21 +47,63 @@ header{
   align-items: center;
 }
 
+#About h1:hover{
+  border-bottom: solid 20px slategray;
+}
+
 #About h1{
   padding: 20px 50px;
   margin: 0 20px;
 
   font-size: 40px;
 
-  border-bottom: solid slategray;
+  border-bottom: solid 2px slategray;
 }
 
-.detail{
+#About .detail{
   padding: 10px 0;
 }
 
-.content{
+#About .content{
   padding: 20px;
 }
 
 /*スキル*/
+
+#Skill{
+  height: 700px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Skill h1:hover{
+  border-bottom: solid 20px slategray;
+}
+
+#Skill h1{
+  padding: 20px 50px;
+  margin: 0 20px;
+
+  font-size: 40px;
+
+  border-bottom: solid 2px slategray;
+}
+
+#Skill .detail{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#Skill .content{
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.content img{
+  height: 50px;
+  width: 50px;
+}
