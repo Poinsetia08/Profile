@@ -31,6 +31,7 @@ header{
 
 /*トップ*/
 #Top{
+  width: 600px;
   height: 500px;
 
   display: flex;
@@ -40,6 +41,7 @@ header{
 
 /*アバウト*/
 #About{
+  width: 600px;
   height: 500px;
   
   display: flex;
@@ -53,7 +55,7 @@ header{
 
 #About h1{
   padding: 20px 50px;
-  margin: 0 20px;
+  margin-right: 133.66px;
 
   font-size: 40px;
 
@@ -71,8 +73,9 @@ header{
 /*スキル*/
 
 #Skill{
+  width: 600px;
   height: 700px;
-  
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -84,7 +87,6 @@ header{
 
 #Skill h1{
   padding: 20px 50px;
-  margin: 0 20px;
 
   font-size: 40px;
 
