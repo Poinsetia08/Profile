@@ -92,18 +92,31 @@ header{
 }
 
 #Skill .detail{
+  width: 360px;
   display: flex;
   flex-wrap: wrap;
 }
 
-#Skill .content{
-  padding: 20px;
+#Skill .detail .content{
+  width: 60px;
+  height: 80px;
+  margin: 30px;
 
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.content i{
+  height: 50px;
+  width: 50px;
+
+  display: block;
 }
 
 .content img{
   height: 50px;
   width: 50px;
+
+  display: block;
 }
