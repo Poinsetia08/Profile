@@ -122,3 +122,21 @@ header{
 
   display: block;
 }
+
+/*コンタクト*/
+#Contact{
+  width: 600px;
+  height: 700px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fab fa-twitter{
+  color: white;
+}
+
+.fab fa-twitter:hover{
+  background-color: #1DA1F2;
+}
