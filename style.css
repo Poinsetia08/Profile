@@ -44,7 +44,7 @@ header{
   width: 600px;
   height: 700px;
 
-  font-size: 25px;
+  font-size: 40px;
 
   display: flex;
   justify-content: center;
@@ -80,6 +80,7 @@ header{
 
 #About .content{
   padding: 20px;
+  font-size: 20px;
 }
 
 /*スキル*/
@@ -115,6 +116,8 @@ header{
   width: 60px;
   height: 80px;
   margin: 30px;
+
+  font-size: 20px;
 
   display: flex;
   justify-content: center;
