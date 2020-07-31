@@ -5,6 +5,10 @@
   list-style: none;
 }
 
+a{
+  color: black;
+}
+
 /*ヘッダー*/
 header{
   height: 100px;
@@ -133,10 +137,52 @@ header{
   align-items: center;
 }
 
-.fab fa-twitter{
-  color: white;
+#Contact h1{
+  padding: 20px 50px;
+  margin-right: 50px;
+  font-size: 40px;
+
+  border-bottom: solid 2px slategray;
 }
 
-.fab fa-twitter:hover{
-  background-color: #1DA1F2;
+#Contact h1:hover{
+  border-bottom: solid 20px slategray;
+}
+
+#Contact .detail{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.github-icon::before {
+  color: #333;
+  font-family: fontawesome;
+  content: "\f09b";
+  font-size: 3em;
+  margin: 20px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.twitter-icon::before {
+  color: #00aced;
+  font-family: fontawesome;
+  content: "\f099";
+  font-size: 3em;
+  padding: 20px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mail-icon::before{
+  color: red;
+  font-family: fontawesome;
+  content: "\f0e0";
+  font-size: 3em;
+  padding: 20px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
