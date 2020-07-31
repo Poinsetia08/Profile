@@ -27,7 +27,7 @@ header{
 }
 
 .header-left{
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .item{
@@ -54,8 +54,8 @@ header{
 
 /*トップ*/
 #Top{
-  width: 600px;
-  height: 700px;
+  width: 100%;
+  height: 800px;
 
   font-size: 40px;
 
@@ -66,66 +66,82 @@ header{
 
 /*アバウト*/
 #About{
-  width: 600px;
+  width: 50%;
   height: 700px;
   
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-title h1{
+  border-bottom: solid 2px slategray;
+}
+
+.about-title h1:hover{
+  border-bottom: solid 20px slategray;
+}
+
+.about-title{
+  width: 50%;
+
+  font-size: 40px;
+
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#About h1:hover{
-  border-bottom: solid 20px slategray;
+.about-detail{
+  width: 50%;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-#About h1{
-  padding: 20px 50px;
-  margin-right: 133.66px;
-
-  font-size: 40px;
-
-  border-bottom: solid 2px slategray;
-}
-
-#About .detail{
-  padding: 10px 0;
-}
-
-#About .content{
+.about-content{
   padding: 20px;
+  width: 150px;
   font-size: 20px;
 }
 
 /*スキル*/
 
 #Skill{
-  width: 600px;
+  width: 50%;
   height: 700px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skill-title h1{
+  border-bottom: solid 2px slategray;
+}
+
+.skill-title h1:hover{
+  border-bottom: solid 20px slategray;
+}
+
+.skill-title{
+  width: 50%;
+  font-size: 40px;
 
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#Skill h1:hover{
-  border-bottom: solid 20px slategray;
-}
-
-#Skill h1{
-  padding: 20px 50px;
-  margin-right: 160px;
-  font-size: 40px;
-
-  border-bottom: solid 2px slategray;
-}
-
-#Skill .detail{
-  width: 360px;
+.skill-detail{
+  width: 50%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
-#Skill .detail .content{
+.skill-content{
   width: 60px;
   height: 80px;
   margin: 30px;
@@ -137,45 +153,53 @@ header{
   flex-wrap: wrap;
 }
 
-.content i{
+.skill-content i{
   height: 50px;
   width: 50px;
 
   display: block;
 }
 
-.content img{
+.skill-content img{
   height: 50px;
   width: 50px;
+  padding-bottom: 5px;
 
   display: block;
 }
 
 /*コンタクト*/
 #Contact{
-  width: 600px;
+  width: 50%;
   height: 700px;
 
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
-#Contact h1{
-  padding: 20px 50px;
-  margin-right: 50px;
-  font-size: 40px;
-
+.contact-title h1{
   border-bottom: solid 2px slategray;
 }
 
-#Contact h1:hover{
+.contact-title h1:hover{
   border-bottom: solid 20px slategray;
 }
 
-#Contact .detail{
+.contact-title{
+  width: 50%;
+  font-size: 40px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.contact-detail{
+  width: 50%;
+
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .github-icon::before {
